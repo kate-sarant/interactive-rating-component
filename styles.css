@@ -1,0 +1,164 @@
+ @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+:root{
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+## Colors
+
+### Primary
+--primary:hsl(25, 97%, 53%);
+
+### Neutral
+--White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+
+## Typography
+
+### Body Copy
+
+
+### Font
+/* Font size (paragraph) */
+--fSparagraph:15px;
+--fontFamily:'Overpass', sans-serif;
+/* - Weights: 400, 700 */
+--fSbtn:22px;
+
+}
+
+body{
+  background-color: var(--VeryDarkBlue);
+font-family: var(--fontFamily);
+display: flex;
+    justify-content: center;
+margin: 0 auto;
+
+    display: flex;
+    position: relative;
+    top: 99px;
+
+
+
+min-width: 375px;
+
+}
+main{
+  /* width: 70%; */
+  min-width: 375px;
+  padding: 12px;
+  border-radius: 22px;
+  background-color: var(--DarkBlue);
+}
+#question{
+  color: white;
+font-size: 24px;
+}
+#paragraph,.close{
+  color: var(--LightGrey);
+  font-size: var(--fSparagraph);
+
+}
+ul{
+    word-spacing: 22px;
+position: relative;
+right: 41px;
+}
+ul li{
+  background-color: hsl(213deg 8% 31% / 20%);
+  display: inline-flex;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 19px;
+word-spacing: 15px;
+      color: var(--MediumGrey);
+      font-size: var(--fSbtn);
+}
+ul li:hover {
+  background:hsl(25deg 87% 42%);
+  color:white;
+}
+
+
+.Submit{
+  width: 89%;
+  border-radius: 26px;
+  border-style: none;
+  color: hsl(25deg 87% 42%);
+  font-size: var(--fSbtn);
+  height: 47px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+      margin: 23px 0px;
+      cursor: pointer;
+  }
+
+ .star-div{
+
+  background-color: #ffffff1a;
+      padding: 13px;
+      width: 18px;
+      position: relative;
+      left: 13px;
+      border-radius: 59%;
+      margin-top: 15px;
+
+}
+footer{
+  position: absolute;
+      bottom: -45px;
+      color: white;
+}
+#answer{
+  min-width: 375px;
+  padding: 12px;
+  border-radius: 22px;
+  background-color: var(--DarkBlue);
+  width: 395px;
+  height: 388px;
+  text-align: center;
+  display: none;
+
+}
+.rating{
+  background-color: hsl(213deg 8% 31% / 20%);
+  color:hsl(25deg 87% 42%);
+  padding: 12px;
+    margin: 0 auto;
+    border-radius: 29px;
+    width: 165px;
+}
+.value{
+      opacity: -1;
+}
+label{
+  position: relative;
+left: 10px;
+}
+.check{
+background-color:  hsl(25deg 87% 42%);
+color:white;
+}
+.prev{
+  background-color: var(--LightGrey);
+  color:white;
+}
+.thanks{
+  color: white;
+  font-size: 32px;
+  margin-top: 24px;
+    margin-bottom: 26px;
+}
+.icon{
+  margin-top: 25px;
+margin-bottom: 28px;
+}
